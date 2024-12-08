@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase CRUD</title>
+  <script defer src="app.js" type="module"></script>
+</head>
+<body>
+  <h1>Firebase CRUD Operations</h1>
+
+  <h2>Add Data</h2>
+  <input type="text" id="username" placeholder="Enter username" />
+  <input type="email" id="email" placeholder="Enter email" />
+  <button onclick="writeData()">Add Data</button>
+
+  <h2>Read Data</h2>
+  <input type="text" id="read-username" placeholder="Enter username" />
+  <button onclick="readData()">Read Data</button>
+
+  <h2>All Users</h2>
+  <ul id="user-list"></ul>
+</body>
+</html>
